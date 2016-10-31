@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <body>   
+        <title>STUDENT PORTAL</title>
+        
+        
+        
+        <form action="servlet/register" method="post"><br>
+        FIRST NAME      :<input type="text" name="userfname"/><br/><br/>
+        LAST NAME       :<input type="text" name="userlname"/><br/><br/>
+        DOB             :<input type="text" name="userdob"/><font color="red">*</font><br/><br/>
+        EMAIL ID        :<input type="text" name="userid"/><br/><br/>
+        PHONE NUMBER    :<input type="text" name="usernumber"/><font color="red">**</font><br/><br/>
+        CREATE PASSWORD :<input type="password" name="userpass"/><br><br>
+        CONFIRMATION LETTER NUMBER :<input type="number" name="userletter"/><font color="red">***</font><br><br>
+        <input type="SUBMIT" value="REGISTER"/><br><br>
+    </form>
+         <p>Otherwise Sign In</p>
+          <a href="login.html"> Sign In</a>
+        
+          <p style="margin-top:180px"></p> <font color="red">*</font> Input in YYYY-MM-DD fromat<br>
+          <font color="red">**</font>Please enter 10 digit valid number only<br> 
+              <font color="red">***</font> Please input correct number here otherwise you will not get roll number
+          </p>
+    </body>
+</html>
